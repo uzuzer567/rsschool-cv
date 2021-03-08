@@ -1,0 +1,48 @@
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+
+.cv__background{
+    height: 900px;
+    background: url("background.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.cv__information{
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+.cv__information_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cv__picture{
+    height: 300px;
+    border-radius: 300px;
+}
+
+.cv__code_first_example_text, 
+.cv__code_second_example_text{
+    padding: 8px;
+    width: 300px;
+    border: 1px solid green;
+    background-color:lightgoldenrodyellow;
+}
+
+.cv__contacts_item, 
+.cv__education_item, 
+.cv__text{
+    font-size: 20px;
+}
